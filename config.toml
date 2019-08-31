@@ -1,0 +1,21 @@
+[server]
+mode = "debug"
+port = 8080
+http_timeout = 10000
+log_path = "./log/dmgin.log"
+
+
+[mysql]
+user = "gavin"
+password = "scpman"
+dbname = "demo"
+host = "www.01.work"
+port = "3306"
+
+[switch]
+mysql = "on"
+
+
+[cache]
+redis_main = "127.0.0.1:6379"
+
